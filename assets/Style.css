@@ -39,5 +39,9 @@ button{
 form div{
     margin-top: 25px;
 }
+.sbarrato{
+    text-decoration: line-through;
+
+}
 
 

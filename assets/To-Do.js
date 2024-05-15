@@ -15,4 +15,21 @@ form.addEventListener("submit", function (event) {
   lavagna.appendChild(liTaskValue);
 
   taskToDo.value = "";
+
+  /* liTaskValue.addEventListener(
+    this.click(function (event) {
+      lavagna.removeChild(liTaskValue);
+    })
+  ); */
+  liTaskValue.addEventListener("click", function () {
+    liTaskValue.classList.toggle("sbarrato");
+  });
+
+  const deleteButton = document.createElement("button");
+  deleteButton.innerText = "fatto";
+  deleteButton.addEventListener("click", function () {
+    lavagna.removeChild(liTaskValue);
+  });
+
+  liTaskValue.appendChild(deleteButton);
 });
