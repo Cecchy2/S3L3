@@ -16,11 +16,6 @@ form.addEventListener("submit", function (event) {
 
   taskToDo.value = "";
 
-  /* liTaskValue.addEventListener(
-    this.click(function (event) {
-      lavagna.removeChild(liTaskValue);
-    })
-  ); */
   liTaskValue.addEventListener("click", function () {
     liTaskValue.classList.toggle("sbarrato");
   });
