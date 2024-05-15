@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+}
+
+
 body{
     margin: 0;
     background-color: lightgray;
@@ -10,6 +15,9 @@ header{
     color: white;
     text-align: center;
 }
+header h1{
+    padding-top: 20px;
+}
 
 #formSection{
     border: solid 1px black;
@@ -19,6 +27,12 @@ header{
     margin-left: 35%;
     margin-top: 70px;
     background-color: white;
+    padding-top: 50px;
+    border-radius: 20px 0 20px 0;
+}
+#inputId{
+    border-radius: 20px;
+    
 }
 #lista1{
     width: 80vw;
@@ -28,9 +42,15 @@ header{
     background-color: white;
 
 }
-#lavagna{
-    margin: 20px 20px 20px;
+
+#lavagnaMagica{
+    margin: 20px 20% 20% 25%;
     padding-left: 20px;
+    border: solid 1px black;
+    background-color: white;
+    width: 50%;
+    border-radius: 5px 0 5px 0;
+    
 }
 button{
     border-radius: 20px;
